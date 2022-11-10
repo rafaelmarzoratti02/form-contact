@@ -29,6 +29,14 @@ form h3 {
   font-size: 25px;
 }
 
+form input[type="text"]:focus {
+  outline: 0;
+}
+
+form input[type="password"]:focus {
+  outline: 0;
+}
+
 form input[type="text"],
 form input[type="password"] {
   width: 100%;
